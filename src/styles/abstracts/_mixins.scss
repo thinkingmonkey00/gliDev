@@ -1,0 +1,36 @@
+@mixin link-design {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  
+    &:hover {
+      border-bottom: 2px solid #4caf50;
+      transition: all 0.5s;
+    }
+  }
+  
+  @mixin equal-margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  @mixin portfolio-hover {
+    transition: 1s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.25, 1.25);
+      transition: 1s ease-in-out;
+    }
+  }
+  
+  @mixin portfolio-text {
+    position: absolute;
+    bottom: 10vh;
+    left: 15vw;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: $white;  
+    background: rgba($color: #000000, $alpha: 0.5);
+    &:hover {
+      text-decoration: none;
+    }
+  }
