@@ -1,0 +1,29 @@
+{
+  "name": "glidev",
+  "version": "1.0.0",
+  "description": "gli dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkingmonkey00/gliDev.git"
+  },
+  "author": "tmd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkingmonkey00/gliDev/issues"
+  },
+  "homepage": "https://github.com/thinkingmonkey00/gliDev#readme",
+  "dependencies": {
+    "autoprefixer": "^9.4.10",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.7"
+  }
+}
