@@ -22,25 +22,9 @@
   },
   "homepage": "https://github.com/thinkingmonkey00/gliDev#readme",
   "dependencies": {
-    "autoprefixer": "^9.4.10",
-    "axios": "^0.18.0",
-    "b": "^2.0.1",
     "bootstrap": "^4.3.1",
-    "j": "^1.0.0",
     "jquery": "^3.3.1",
-    "node-sass": "^4.11.0",
     "popper.js": "^1.14.7"
   },
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "eslint": "^5.15.1",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "postcss-loader": "^3.0.0",
-    "posthtml": "^0.11.3",
-    "posthtml-include": "^1.2.0",
-    "posthtml-load-config": "^1.0.0",
-    "posthtml-parser": "^0.4.1",
-    "posthtml-render": "^1.1.4"
-  }
+  "devDependencies": {}
 }
