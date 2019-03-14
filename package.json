@@ -2,13 +2,14 @@
   "name": "glidev",
   "version": "1.0.0",
   "description": "gli dev",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run clean && parcel index.html",
     "build": "parcel build index.html",
     "clean": "rimraf dist && rimraf .cache",
-    "eslint:init": "eslint --init"
+    "eslint:init": "eslint --init",
+    "parcel:debug": "parcel index.html --log-level 5"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "popper.js": "^1.14.7"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "eslint": "^5.15.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
