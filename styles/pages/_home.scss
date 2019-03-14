@@ -1,0 +1,11 @@
+
+.carousel {
+  height: 87vh;
+  background-color: transparent;
+  .carousel-inner {
+    height: inherit;
+    .carousel-item {
+      height: inherit;
+    }
+  }
+}

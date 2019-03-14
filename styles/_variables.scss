@@ -1,8 +1,37 @@
 // Fonts
-$open-sans: 'Open Sans', sans-serif;
-$alpha-slab: 'Alfa Slab One', cursive;
-$roboto-slab: 'Roboto Slab', serif;
+$open-sans: "Open Sans", sans-serif;
+$alpha-slab: "Alfa Slab One", cursive;
+$roboto-slab: "Roboto Slab", serif;
 
 $sans-serif-font: $open-sans;
 $serif-font: $roboto-slab;
 $display-font: $alpha-slab;
+
+// Colors
+$gli-green: #5b8266;
+$gli-light-green: #15a65b;
+$gli-yellow-green: #5d8003;
+$gli-yellow: #ffe081;
+$gli-blue: #2d5461;
+$gli-light-blue: #00858b;
+$gli-red: #b3635a;
+$gli-light: #ecf0dd;
+$gli-dark: #303030;
+$gli-black: #010101;
+
+// Bootstrap overrides
+// Colors
+$primary: $gli-green;
+$secondary: $gli-blue;
+$success: $gli-light-green;
+$info: $gli-light-blue;
+$warning: $gli-yellow;
+$danger: $gli-red;
+$light: $gli-light;
+$dark: $gli-dark;
+$black: $gli-black;
+
+// Fonts
+$font-family-base: $sans-serif-font;
+$font-size-base: 1rem;
+$enable-responsive-font-sizes: true;

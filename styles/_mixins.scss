@@ -8,11 +8,6 @@
     }
   }
   
-  @mixin equal-margin {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
   @mixin portfolio-hover {
     transition: 1s ease-in-out;
   

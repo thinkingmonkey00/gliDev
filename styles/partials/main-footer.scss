@@ -1,0 +1,21 @@
+#footer {
+
+  border-top: 5px solid transparent;
+  img {
+    height: 2rem;
+    width: auto;
+  }
+  ul.list-unstyled li > a {
+    color: $white;
+    font-family: $serif-font;
+    @include link-design;
+  }
+  .social-buttons {
+    ul {
+      list-style: none;
+    }
+  }
+  #footer-info-links > div > a {
+    text-decoration: none;
+  }
+}

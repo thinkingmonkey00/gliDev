@@ -1,0 +1,12 @@
+nav.navbar {
+    font-family: $display-font;
+    font-variant: small-caps;
+    font-size: 1.4rem;
+    img.img-fluid {
+      height: 10vh;
+      width: auto;
+    }
+    .nav-link {
+      @include link-design;
+    }
+  }
