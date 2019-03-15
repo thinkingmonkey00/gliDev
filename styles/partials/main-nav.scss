@@ -6,7 +6,11 @@ nav.navbar {
       height: 10vh;
       width: auto;
     }
-    .nav-link {
+    .nav-item {
+      background: $gli-gold;
       @include link-design;
+      .nav-link {
+        background: $white;
+      }
     }
   }

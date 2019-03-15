@@ -1,13 +1,13 @@
 body {
-    width: 100%;
-    height: 100%;
-  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #aa771c);
+  width: 100%;
+  height: 100%;
+  background: $gli-gold;
 }
+
 .pointer {
   cursor: pointer;
 }
+
 .default-pointer {
   cursor: default;
 }
-
-

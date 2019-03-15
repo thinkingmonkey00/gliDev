@@ -1,8 +1,8 @@
 #main-portfolio-slider.carousel {
     background: transparent;
+}
 
-
-#portfolio-img-1 {
+div#portfolio-img-1 {
     background: url('https://res.cloudinary.com/drlcksx7j/image/upload/s--Eb26qBX6--/q_jpegmini/v1552540833/DSC_5615-X2_ajuwr5.jpg');
     background-size: cover;
     background-position-y: 100%;
@@ -42,4 +42,13 @@
     background-position-y: 65%;
     background-position-x: 40%;
 }
+
+.carousel-item {
+    position: relative;
+
+    .portfolio-block {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
 }

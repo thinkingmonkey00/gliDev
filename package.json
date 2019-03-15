@@ -1,0 +1,28 @@
+{
+  "name": "glidev",
+  "version": "1.0.0",
+  "description": "dev file",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist .cache",
+    "clean:nm": "rm -rf node_modules",
+    "clean:all": "yarn clean && yarn clean:nm"
+  },
+  "repository": "https://github.com/thinkingmonkey00/gliDev.git",
+  "author": "Melissa Murphy <31637708+thinkingmonkey00@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel": "^1.12.2",
+    "posthtml-include": "^1.2.0",
+    "sass": "^1.17.2"
+  }
+}
