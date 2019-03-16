@@ -11,14 +11,6 @@ nav.navbar {
   }
 
   .nav-item {
-    //box-sizing: border-box;
-    //background: $gli-gold;
     @include link-design;
-    
-
-
-    .nav-link {
-      background: transparent;
-    }
   }
 }

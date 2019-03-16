@@ -10,3 +10,7 @@ body {
 .default-pointer {
   cursor: default;
 }
+
+.active {
+  @include link-design-active;
+}

@@ -10,6 +10,12 @@
   }
 }
 
+@mixin link-design-active {
+  text-decoration: none;
+  border-bottom: 3px solid $primary;
+  transition: all .5s;
+}
+
 @mixin carousel-globals {
   height: 100vh;
   background-color: transparent;

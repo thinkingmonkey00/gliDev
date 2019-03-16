@@ -17722,20 +17722,8 @@ var _bootstrap = _interopRequireDefault(require("bootstrap"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-if (module.hot) {
-  module.hot.accept(function () {
-    window.location.reload();
-  });
-}
-
-(0, _jquery.default)(function ($) {
-  $('#menu > ul.navbar-nav li').click(function (e) {
-    $('.navbar-nav li.active').removeClass('active');
-    $(this).addClass('active');
-    ;
-    e.preventDefault();
-  });
-});
+window.$ = window.jQuery = _jquery.default; //import dynamicActiveLinks from './scripts/dynamicActiveLink';
+//import hotModLoad from './scripts/hotReloading';
 },{"jquery":"node_modules/jquery/dist/jquery.js","popper.js":"node_modules/popper.js/dist/esm/popper.js","bootstrap":"node_modules/bootstrap/dist/js/bootstrap.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -17764,7 +17752,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64438" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54436" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

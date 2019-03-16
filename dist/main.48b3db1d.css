@@ -9721,6 +9721,12 @@ body {
   cursor: default;
 }
 
+.active {
+  text-decoration: none;
+  border-bottom: 3px solid #5b8266;
+  transition: all 0.5s;
+}
+
 nav.navbar {
   box-shadow: 0px 7px 14px -3px rgba(50, 50, 50, 0.75);
   font-family: "Open Sans", sans-serif;
@@ -9741,9 +9747,6 @@ nav.navbar .nav-item:hover {
   text-decoration: none;
   border-bottom: 3px solid #5b8266;
   transition: all 0.5s;
-}
-nav.navbar .nav-item .nav-link {
-  background: transparent;
 }
 
 #footer {
@@ -9860,19 +9863,19 @@ div#portfolio-img-1 {
   height: inherit;
 }
 #bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-1 {
-  background: url("/f60a5f8486553a512255d6c1fb5a18c7.jpg");
+  background: url("/glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg");
   background-size: cover;
   background-position-y: bottom;
   background-position-x: left;
 }
 #bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-2 {
-  background: url("/332aa4f2d4e139c050f7c9db50d2621c.jpg");
+  background: url("/bel-marin-keys-wall.50d2621c.jpg");
   background-size: cover;
   background-position-y: bottom;
   background-position-x: 90%;
 }
 #bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-3 {
-  background: url("/422462f24bd091ae725608eb4bab9494.jpg");
+  background: url("/bel-marin-keys-stone-path.4bab9494.jpg");
   background-size: cover;
   background-position-y: bottom;
   background-position-x: 40%;
