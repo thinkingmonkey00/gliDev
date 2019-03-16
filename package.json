@@ -8,7 +8,8 @@
     "build": "parcel build index.html",
     "clean": "rm -rf dist .cache",
     "clean:nm": "rm -rf node_modules",
-    "clean:all": "yarn clean && yarn clean:nm"
+    "clean:all": "yarn clean && yarn clean:nm",
+    "firebase:deploy": "firebase deploy --project gli-norcal-landscape-constr"
   },
   "repository": "https://github.com/thinkingmonkey00/gliDev.git",
   "author": "Melissa Murphy <31637708+thinkingmonkey00@users.noreply.github.com>",

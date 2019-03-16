@@ -1,3 +1,6 @@
-node_modules/
-.vscode/
-.cache/
+# This is a comment
+
+node_modules
+.vscode
+.cache
+.babelrc

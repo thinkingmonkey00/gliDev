@@ -1,0 +1,9 @@
+div#services {
+    background: $white;
+    height: 100%;
+    padding: 8rem 2rem;
+    > h1 {
+        padding-bottom: 0.5rem; 
+        border-bottom: 3px $primary solid;
+    }
+}

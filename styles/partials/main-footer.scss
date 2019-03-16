@@ -1,21 +1,34 @@
 #footer {
 
   border-top: 5px solid transparent;
+
   img {
     height: 2rem;
     width: auto;
   }
-  ul.list-unstyled li > a {
-    color: $white;
-    font-family: $serif-font;
-    @include link-design;
+
+  ul.list-unstyled li {
+    //padding-bottom: .5rem;
+    a {
+      text-decoration: none;
+      color: $white;
+      font-family: $serif-font;
+      transition: all .5s;
+      @include link-design;
+    }
   }
+
   .social-buttons {
     ul {
       list-style: none;
     }
   }
-  #footer-info-links > div > a {
+
+  .jobs-link > p > a {
+    @include link-design;
+  }
+
+  #footer-info-links>div>a {
     text-decoration: none;
   }
 }

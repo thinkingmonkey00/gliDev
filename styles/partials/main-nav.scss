@@ -1,16 +1,24 @@
 nav.navbar {
-    font-family: $display-font;
-    font-variant: small-caps;
-    font-size: 1.4rem;
-    img.img-fluid {
-      height: 10vh;
-      width: auto;
-    }
-    .nav-item {
-      background: $gli-gold;
-      @include link-design;
-      .nav-link {
-        background: $white;
-      }
+  box-shadow: 0px 7px 14px -3px rgba(50, 50, 50, 0.75);
+  font-family: $font-family-base;
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: 1.4rem;
+
+  img.img-fluid {
+    height: 10vh;
+    width: auto;
+  }
+
+  .nav-item {
+    //box-sizing: border-box;
+    //background: $gli-gold;
+    @include link-design;
+    
+
+
+    .nav-link {
+      background: transparent;
     }
   }
+}

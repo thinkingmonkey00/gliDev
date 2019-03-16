@@ -1,17 +1,5 @@
 
 .carousel {
-  height: 87vh;
-  background-color: transparent;
-  .carousel-inner {
-    height: inherit;
-    .carousel-item {
-      height: inherit;
-    }
-  }
+  @include carousel-globals;
 }
 
-#footer-info-links,
-div.social-buttons,
-div.jobs-link {
-  font-size: 0.85rem;
-}
