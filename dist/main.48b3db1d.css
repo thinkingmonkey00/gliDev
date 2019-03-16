@@ -9751,10 +9751,9 @@ nav.navbar .nav-item:hover {
 
 #footer {
   border-top: 5px solid transparent;
-}
-#footer img {
-  height: 2rem;
-  width: auto;
+  background-: img;
+  background--height: 2rem;
+  background--width: auto;
 }
 #footer ul.list-unstyled li a {
   text-decoration: none;

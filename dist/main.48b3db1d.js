@@ -122,7 +122,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\melis\\Documents\\GitHub\\gliDev\\images\\glinorcal-stone-path-masonry-glass-privacy-walls.jpg":[["glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg","images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"C:\\Users\\melis\\Documents\\GitHub\\gliDev\\images\\bel-marin-keys-wall.jpg":[["bel-marin-keys-wall.50d2621c.jpg","images/bel-marin-keys-wall.jpg"],"images/bel-marin-keys-wall.jpg"],"C:\\Users\\melis\\Documents\\GitHub\\gliDev\\images\\bel-marin-keys-stone-path.jpg":[["bel-marin-keys-stone-path.4bab9494.jpg","images/bel-marin-keys-stone-path.jpg"],"images/bel-marin-keys-stone-path.jpg"],"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\melis\\Documents\\Github\\gliDev\\images\\glinorcal-stone-path-masonry-glass-privacy-walls.jpg":[["glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg","images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"C:\\Users\\melis\\Documents\\Github\\gliDev\\images\\bel-marin-keys-wall.jpg":[["bel-marin-keys-wall.50d2621c.jpg","images/bel-marin-keys-wall.jpg"],"images/bel-marin-keys-wall.jpg"],"C:\\Users\\melis\\Documents\\Github\\gliDev\\images\\bel-marin-keys-stone-path.jpg":[["bel-marin-keys-stone-path.4bab9494.jpg","images/bel-marin-keys-stone-path.jpg"],"images/bel-marin-keys-stone-path.jpg"],"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54436" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64282" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
