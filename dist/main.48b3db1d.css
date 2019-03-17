@@ -9750,10 +9750,12 @@ nav.navbar .nav-item:hover {
 }
 
 #footer {
-  border-top: 5px solid transparent;
-  background-: img;
-  background--height: 2rem;
-  background--width: auto;
+  border-top: 5px solid #fff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), center/cover no-repeat url("/stone-bg.eef9bcc9.jpg");
+}
+#footer img {
+  height: 2rem;
+  width: auto;
 }
 #footer ul.list-unstyled li a {
   text-decoration: none;
@@ -9897,6 +9899,15 @@ div#services {
 div#services > h1 {
   padding-bottom: 0.5rem;
   border-bottom: 3px #5b8266 solid;
+}
+div#services h2 {
+  display: flex;
+  justify-content: center;
+}
+div#services h2 img {
+  height: 2.5rem;
+  width: auto;
+  align-self: top;
 }
 
 #contact {

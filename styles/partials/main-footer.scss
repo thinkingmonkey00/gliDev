@@ -1,7 +1,7 @@
 #footer {
-
-  border-top: 5px solid transparent;
-  background-image: 
+  border-top: 5px solid $white;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    center / cover no-repeat url("/images//stone-bg.jpg");
 
   img {
     height: 2rem;
@@ -14,7 +14,7 @@
       text-decoration: none;
       color: $white;
       font-family: $serif-font;
-      transition: all .5s;
+      transition: all 0.5s;
       @include link-design;
     }
   }
@@ -26,10 +26,10 @@
   }
 
   .jobs-link > p > a {
-  @include link-design;
+    @include link-design;
   }
 
-  #footer-info-links>div>a {
+  #footer-info-links > div > a {
     text-decoration: none;
   }
 }
