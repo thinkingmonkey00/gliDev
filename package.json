@@ -9,12 +9,14 @@
     "clean": "rm -rf dist .cache",
     "clean:nm": "rm -rf node_modules",
     "clean:all": "yarn clean && yarn clean:nm",
-    "firebase:deploy": "firebase deploy --project gli-norcal-landscape-constr"
+    "firebase:deploy": "firebase deploy --project gli-norcal-landscape-constr",
+    "firebase:serve": "firebase serve --project gli-norcal-landscape-constr"
   },
   "repository": "https://github.com/thinkingmonkey00/gliDev.git",
   "author": "Melissa Murphy <31637708+thinkingmonkey00@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
     "j": "^1.0.0",
     "jquery": "^3.3.1",
