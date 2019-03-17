@@ -1,5 +1,5 @@
 #main-portfolio-slider.carousel {
-    background: transparent;
+    @include carousel-globals;
 }
 
 div#portfolio-img-1 {
