@@ -4,3 +4,6 @@ node_modules
 .vscode
 .cache
 .babelrc
+.firebase
+firebase.json
+.firebaserc
