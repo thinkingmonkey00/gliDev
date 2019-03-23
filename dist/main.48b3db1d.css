@@ -9904,41 +9904,59 @@ div#portfolio-img-1 {
 #bel-marin-portfolio .carousel-inner .carousel-item {
   height: inherit;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-1 .carousel-item {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-1 {
   background: url("/bel-marin-1.26ab2be4.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-keys-img-2 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-2 {
   background: url("/bel-marin-2.d7f401cb.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-3 {
   background: url("/bel-marin-3.08a6ca5b.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-4 {
   background: url("/bel-marin-4.ace49d9f.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-5 {
   background: url("/bel-marin-5.3001551c.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-6 {
   background: url("/bel-marin-6.f24b3f14.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-7 {
   background: url("/bel-marin-7.02561720.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-8 {
   background: url("/bel-marin-8.8279521c.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 #bel-marin-portfolio .carousel-inner #bel-marin-img-9 {
   background: url("/bel-marin-9.7c93b73d.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
 }
 
 #about {
