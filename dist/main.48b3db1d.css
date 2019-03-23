@@ -9799,15 +9799,38 @@ nav.navbar .nav-item:hover {
   color: inherit;
 }
 
-.carousel {
+#main-carousel {
   height: 100vh;
   background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
 }
-.carousel .carousel-inner {
+#main-carousel .carousel-inner {
   height: inherit;
 }
-.carousel .carousel-inner .carousel-item {
+#main-carousel .carousel-inner .carousel-item {
   height: inherit;
+}
+#main-carousel .carousel-inner #main-img-1.carousel-item {
+  background: url("/glinorcal-stone-firepit.1400ddd4.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: 60%;
+}
+#main-carousel .carousel-inner #main-img-2.carousel-item {
+  background: url("/glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: 20%;
+}
+#main-carousel .carousel-inner #main-img-3.carousel-item {
+  background: url("/glinorcal-stone-walls-patio-carpentry.83c3754f.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+@media (min-width: 768px) {
+  #main-carousel .carousel-inner #main-img-3.carousel-item {
+    background-position-x: 25%;
+  }
 }
 
 #main-portfolio-slider.carousel {
@@ -9882,19 +9905,55 @@ div#portfolio-img-1 {
   height: inherit;
 }
 #bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-1 {
-  background: url("/glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg");
+  background: url("/bel-marin-1.26ab2be4.jpg");
   background-size: cover;
   background-position-y: bottom;
   background-position-x: left;
 }
 #bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-2 {
-  background: url("/bel-marin-keys-wall.50d2621c.jpg");
+  background: url("/bel-marin-2.d7f401cb.jpg");
   background-size: cover;
   background-position-y: bottom;
   background-position-x: 90%;
 }
 #bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-3 {
-  background: url("/bel-marin-keys-stone-path.4bab9494.jpg");
+  background: url("/bel-marin-3.08a6ca5b.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+#bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-4 {
+  background: url("/bel-marin-4.ace49d9f.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+#bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-5 {
+  background: url("/bel-marin-5.3001551c.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+#bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-6 {
+  background: url("/bel-marin-6.f24b3f14.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+#bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-7 {
+  background: url("/bel-marin-7.02561720.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+#bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-8 {
+  background: url("/bel-marin-8.8279521c.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: 40%;
+}
+#bel-marin-keys-portfolio-slider .carousel #bel-marin-keys-img-9 {
+  background: url("/bel-marin-9.7c93b73d.jpg");
   background-size: cover;
   background-position-y: bottom;
   background-position-x: 40%;
