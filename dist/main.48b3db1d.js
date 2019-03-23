@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel/src/builtins/bundle-url.js"}],"styles/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\melis\\Documents\\Github\\gliDev\\images\\stone-bg.jpg":[["stone-bg.eef9bcc9.jpg","images/stone-bg.jpg"],"images/stone-bg.jpg"],"./..\\images\\glinorcal-stone-firepit.jpg":[["glinorcal-stone-firepit.1400ddd4.jpg","images/glinorcal-stone-firepit.jpg"],"images/glinorcal-stone-firepit.jpg"],"./..\\images\\glinorcal-stone-path-masonry-glass-privacy-walls.jpg":[["glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg","images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"./..\\images\\glinorcal-stone-walls-patio-carpentry.jpg":[["glinorcal-stone-walls-patio-carpentry.83c3754f.jpg","images/glinorcal-stone-walls-patio-carpentry.jpg"],"images/glinorcal-stone-walls-patio-carpentry.jpg"],"./..\\..\\images\\bel-marin-keys\\bel-marin-1.jpg":[["bel-marin-1.2bcc8c21.jpg","../images/bel-marin-keys/bel-marin-1.jpg"],"../images/bel-marin-keys/bel-marin-1.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-2.jpg":[["bel-marin-2.d7f401cb.jpg","images/bel-marin-keys/bel-marin-2.jpg"],"images/bel-marin-keys/bel-marin-2.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-3.jpg":[["bel-marin-3.08a6ca5b.jpg","images/bel-marin-keys/bel-marin-3.jpg"],"images/bel-marin-keys/bel-marin-3.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-4.jpg":[["bel-marin-4.ace49d9f.jpg","images/bel-marin-keys/bel-marin-4.jpg"],"images/bel-marin-keys/bel-marin-4.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-5.jpg":[["bel-marin-5.3001551c.jpg","images/bel-marin-keys/bel-marin-5.jpg"],"images/bel-marin-keys/bel-marin-5.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-6.jpg":[["bel-marin-6.f24b3f14.jpg","images/bel-marin-keys/bel-marin-6.jpg"],"images/bel-marin-keys/bel-marin-6.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-7.jpg":[["bel-marin-7.02561720.jpg","images/bel-marin-keys/bel-marin-7.jpg"],"images/bel-marin-keys/bel-marin-7.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-8.jpg":[["bel-marin-8.8279521c.jpg","images/bel-marin-keys/bel-marin-8.jpg"],"images/bel-marin-keys/bel-marin-8.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-9.jpg":[["bel-marin-9.7c93b73d.jpg","images/bel-marin-keys/bel-marin-9.jpg"],"images/bel-marin-keys/bel-marin-9.jpg"],"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\melis\\Documents\\Github\\gliDev\\images\\stone-bg.jpg":[["stone-bg.eef9bcc9.jpg","images/stone-bg.jpg"],"images/stone-bg.jpg"],"./..\\images\\glinorcal-stone-firepit.jpg":[["glinorcal-stone-firepit.1400ddd4.jpg","images/glinorcal-stone-firepit.jpg"],"images/glinorcal-stone-firepit.jpg"],"./..\\images\\glinorcal-stone-path-masonry-glass-privacy-walls.jpg":[["glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg","images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"./..\\images\\glinorcal-stone-walls-patio-carpentry.jpg":[["glinorcal-stone-walls-patio-carpentry.83c3754f.jpg","images/glinorcal-stone-walls-patio-carpentry.jpg"],"images/glinorcal-stone-walls-patio-carpentry.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-1.jpg":[["bel-marin-1.26ab2be4.jpg","images/bel-marin-keys/bel-marin-1.jpg"],"images/bel-marin-keys/bel-marin-1.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-2.jpg":[["bel-marin-2.d7f401cb.jpg","images/bel-marin-keys/bel-marin-2.jpg"],"images/bel-marin-keys/bel-marin-2.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-3.jpg":[["bel-marin-3.08a6ca5b.jpg","images/bel-marin-keys/bel-marin-3.jpg"],"images/bel-marin-keys/bel-marin-3.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-4.jpg":[["bel-marin-4.ace49d9f.jpg","images/bel-marin-keys/bel-marin-4.jpg"],"images/bel-marin-keys/bel-marin-4.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-5.jpg":[["bel-marin-5.3001551c.jpg","images/bel-marin-keys/bel-marin-5.jpg"],"images/bel-marin-keys/bel-marin-5.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-6.jpg":[["bel-marin-6.f24b3f14.jpg","images/bel-marin-keys/bel-marin-6.jpg"],"images/bel-marin-keys/bel-marin-6.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-7.jpg":[["bel-marin-7.02561720.jpg","images/bel-marin-keys/bel-marin-7.jpg"],"images/bel-marin-keys/bel-marin-7.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-8.jpg":[["bel-marin-8.8279521c.jpg","images/bel-marin-keys/bel-marin-8.jpg"],"images/bel-marin-keys/bel-marin-8.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-9.jpg":[["bel-marin-9.7c93b73d.jpg","images/bel-marin-keys/bel-marin-9.jpg"],"images/bel-marin-keys/bel-marin-9.jpg"],"_css_loader":"../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60601" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64961" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -392,5 +392,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/main.48b3db1d.js.map

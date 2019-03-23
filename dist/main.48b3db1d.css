@@ -9904,59 +9904,41 @@ div#portfolio-img-1 {
 #bel-marin-portfolio .carousel-inner .carousel-item {
   height: inherit;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-1 {
-  background: url("/bel-marin-1.2bcc8c21.jpg");
+#bel-marin-portfolio .carousel-inner #bel-marin-img-1 .carousel-item {
+  background: url("/bel-marin-1.26ab2be4.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: left;
 }
-#bel-marin-portfolio .carousel #bel-marin-keys-img-2 {
+#bel-marin-portfolio .carousel-inner #bel-marin-keys-img-2 {
   background: url("/bel-marin-2.d7f401cb.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 90%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-3 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-3 {
   background: url("/bel-marin-3.08a6ca5b.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-4 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-4 {
   background: url("/bel-marin-4.ace49d9f.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-5 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-5 {
   background: url("/bel-marin-5.3001551c.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-6 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-6 {
   background: url("/bel-marin-6.f24b3f14.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-7 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-7 {
   background: url("/bel-marin-7.02561720.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-8 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-8 {
   background: url("/bel-marin-8.8279521c.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
-#bel-marin-portfolio .carousel #bel-marin-img-9 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-9 {
   background: url("/bel-marin-9.7c93b73d.jpg");
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: 40%;
 }
 
 #about {
