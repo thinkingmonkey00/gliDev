@@ -4,7 +4,7 @@
   "description": "dev file",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html bel-marin-keys.html",
+    "dev": "parcel index.html contact.html about.html legal.htnl",
     "build": "parcel build index.html",
     "clean": "rm -rf dist .cache",
     "clean:nm": "rm -rf node_modules",

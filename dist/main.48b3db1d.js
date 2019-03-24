@@ -117,79 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
-
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
-  }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
-      }
-    }
-
-    cssTimeout = null;
-  }, 50);
-}
-
-module.exports = reloadCSS;
-},{"./bundle-url":"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-url.js"}],"styles/main.scss":[function(require,module,exports) {
+})({"styles/main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"c:\\Users\\melis\\Documents\\GitHub\\gliDev\\images\\stone-bg.jpg":[["stone-bg.eef9bcc9.jpg","images/stone-bg.jpg"],"images/stone-bg.jpg"],"./..\\images\\glinorcal-stone-firepit.jpg":[["glinorcal-stone-firepit.1400ddd4.jpg","images/glinorcal-stone-firepit.jpg"],"images/glinorcal-stone-firepit.jpg"],"./..\\images\\glinorcal-stone-path-masonry-glass-privacy-walls.jpg":[["glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg","images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"./..\\images\\glinorcal-stone-walls-patio-carpentry.jpg":[["glinorcal-stone-walls-patio-carpentry.83c3754f.jpg","images/glinorcal-stone-walls-patio-carpentry.jpg"],"images/glinorcal-stone-walls-patio-carpentry.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-1.jpg":[["belvedere-lagoon-1.3a227919.jpg","images/belvedere-lagoon/belvedere-lagoon-1.jpg"],"images/belvedere-lagoon/belvedere-lagoon-1.jpg"],"./..\\images\\san-francisco\\sf-7.jpg":[["sf-7.b8ad093b.jpg","images/san-francisco/sf-7.jpg"],"images/san-francisco/sf-7.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-1.jpg":[["bel-marin-1.26ab2be4.jpg","images/bel-marin-keys/bel-marin-1.jpg"],"images/bel-marin-keys/bel-marin-1.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-2.jpg":[["bel-marin-2.d7f401cb.jpg","images/bel-marin-keys/bel-marin-2.jpg"],"images/bel-marin-keys/bel-marin-2.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-3.jpg":[["bel-marin-3.08a6ca5b.jpg","images/bel-marin-keys/bel-marin-3.jpg"],"images/bel-marin-keys/bel-marin-3.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-4.jpg":[["bel-marin-4.ace49d9f.jpg","images/bel-marin-keys/bel-marin-4.jpg"],"images/bel-marin-keys/bel-marin-4.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-5.jpg":[["bel-marin-5.3001551c.jpg","images/bel-marin-keys/bel-marin-5.jpg"],"images/bel-marin-keys/bel-marin-5.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-6.jpg":[["bel-marin-6.f24b3f14.jpg","images/bel-marin-keys/bel-marin-6.jpg"],"images/bel-marin-keys/bel-marin-6.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-7.jpg":[["bel-marin-7.02561720.jpg","images/bel-marin-keys/bel-marin-7.jpg"],"images/bel-marin-keys/bel-marin-7.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-8.jpg":[["bel-marin-8.8279521c.jpg","images/bel-marin-keys/bel-marin-8.jpg"],"images/bel-marin-keys/bel-marin-8.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-9.jpg":[["bel-marin-9.7c93b73d.jpg","images/bel-marin-keys/bel-marin-9.jpg"],"images/bel-marin-keys/bel-marin-9.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-1.jpg":[["belvedere-firepit-1.0a2325a6.jpg","images/belvedere-firepit/belvedere-firepit-1.jpg"],"images/belvedere-firepit/belvedere-firepit-1.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-2.jpg":[["belvedere-firepit-2.6c15f700.jpg","images/belvedere-firepit/belvedere-firepit-2.jpg"],"images/belvedere-firepit/belvedere-firepit-2.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-3.jpg":[["belvedere-firepit-3.d5193bf5.jpg","images/belvedere-firepit/belvedere-firepit-3.jpg"],"images/belvedere-firepit/belvedere-firepit-3.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-4.jpg":[["belvedere-firepit-4.ec085dd3.jpg","images/belvedere-firepit/belvedere-firepit-4.jpg"],"images/belvedere-firepit/belvedere-firepit-4.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-5.jpg":[["belvedere-firepit-5.5103df44.jpg","images/belvedere-firepit/belvedere-firepit-5.jpg"],"images/belvedere-firepit/belvedere-firepit-5.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-2.jpg":[["belvedere-lagoon-2.90622f6e.jpg","images/belvedere-lagoon/belvedere-lagoon-2.jpg"],"images/belvedere-lagoon/belvedere-lagoon-2.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-3.jpg":[["belvedere-lagoon-3.56218a1c.jpg","images/belvedere-lagoon/belvedere-lagoon-3.jpg"],"images/belvedere-lagoon/belvedere-lagoon-3.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-4.jpg":[["belvedere-lagoon-4.d305b091.jpg","images/belvedere-lagoon/belvedere-lagoon-4.jpg"],"images/belvedere-lagoon/belvedere-lagoon-4.jpg"],"./..\\images\\piedmont\\piedmont-1.jpg":[["piedmont-1.fc1eefd1.jpg","images/piedmont/piedmont-1.jpg"],"images/piedmont/piedmont-1.jpg"],"./..\\images\\piedmont\\piedmont-2.jpg":[["piedmont-2.0dfac108.jpg","images/piedmont/piedmont-2.jpg"],"images/piedmont/piedmont-2.jpg"],"./..\\images\\piedmont\\piedmont-3.jpg":[["piedmont-3.eebd91ba.jpg","images/piedmont/piedmont-3.jpg"],"images/piedmont/piedmont-3.jpg"],"./..\\images\\piedmont\\piedmont-4.jpg":[["piedmont-4.29099990.jpg","images/piedmont/piedmont-4.jpg"],"images/piedmont/piedmont-4.jpg"],"./..\\images\\piedmont\\piedmont-5.jpg":[["piedmont-5.12421d4e.jpg","images/piedmont/piedmont-5.jpg"],"images/piedmont/piedmont-5.jpg"],"./..\\images\\piedmont\\piedmont-6.jpg":[["piedmont-6.305a98f4.jpg","images/piedmont/piedmont-6.jpg"],"images/piedmont/piedmont-6.jpg"],"./..\\images\\san-rafael\\san-rafael-1.jpg":[["san-rafael-1.531ed3ba.jpg","images/san-rafael/san-rafael-1.jpg"],"images/san-rafael/san-rafael-1.jpg"],"./..\\images\\san-rafael\\san-rafael-2.jpg":[["san-rafael-2.27c37840.jpg","images/san-rafael/san-rafael-2.jpg"],"images/san-rafael/san-rafael-2.jpg"],"./..\\images\\san-rafael\\san-rafael-3.jpg":[["san-rafael-3.7eb11ae7.jpg","images/san-rafael/san-rafael-3.jpg"],"images/san-rafael/san-rafael-3.jpg"],"./..\\images\\san-rafael\\san-rafael-4.jpg":[["san-rafael-4.218a9dab.jpg","images/san-rafael/san-rafael-4.jpg"],"images/san-rafael/san-rafael-4.jpg"],"./..\\images\\san-francisco\\sf-1.jpg":[["sf-1.f26d5405.jpg","images/san-francisco/sf-1.jpg"],"images/san-francisco/sf-1.jpg"],"./..\\images\\san-francisco\\sf-2.jpg":[["sf-2.ef07293a.jpg","images/san-francisco/sf-2.jpg"],"images/san-francisco/sf-2.jpg"],"./..\\images\\san-francisco\\sf-3.jpg":[["sf-3.12f438e6.jpg","images/san-francisco/sf-3.jpg"],"images/san-francisco/sf-3.jpg"],"./..\\images\\san-francisco\\sf-4.jpg":[["sf-4.ecca7e44.jpg","images/san-francisco/sf-4.jpg"],"images/san-francisco/sf-4.jpg"],"./..\\images\\san-francisco\\sf-5.jpg":[["sf-5.a787c381.jpg","images/san-francisco/sf-5.jpg"],"images/san-francisco/sf-5.jpg"],"./..\\images\\san-francisco\\sf-6.jpg":[["sf-6.17efb3ad.jpg","images/san-francisco/sf-6.jpg"],"images/san-francisco/sf-6.jpg"],"_css_loader":"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\melis\\Documents\\GitHub\\gliDev\\images\\stone-bg.jpg":[["stone-bg.eef9bcc9.jpg","images/stone-bg.jpg"],"images/stone-bg.jpg"],"./..\\images\\glinorcal-stone-firepit.jpg":[["glinorcal-stone-firepit.1400ddd4.jpg","images/glinorcal-stone-firepit.jpg"],"images/glinorcal-stone-firepit.jpg"],"./..\\images\\glinorcal-stone-path-masonry-glass-privacy-walls.jpg":[["glinorcal-stone-path-masonry-glass-privacy-walls.fb5a18c7.jpg","images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg"],"./..\\images\\glinorcal-stone-walls-patio-carpentry.jpg":[["glinorcal-stone-walls-patio-carpentry.83c3754f.jpg","images/glinorcal-stone-walls-patio-carpentry.jpg"],"images/glinorcal-stone-walls-patio-carpentry.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-1.jpg":[["belvedere-lagoon-1.3a227919.jpg","images/belvedere-lagoon/belvedere-lagoon-1.jpg"],"images/belvedere-lagoon/belvedere-lagoon-1.jpg"],"./..\\images\\san-francisco\\sf-7.jpg":[["sf-7.b8ad093b.jpg","images/san-francisco/sf-7.jpg"],"images/san-francisco/sf-7.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-1.jpg":[["bel-marin-1.26ab2be4.jpg","images/bel-marin-keys/bel-marin-1.jpg"],"images/bel-marin-keys/bel-marin-1.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-2.jpg":[["bel-marin-2.d7f401cb.jpg","images/bel-marin-keys/bel-marin-2.jpg"],"images/bel-marin-keys/bel-marin-2.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-3.jpg":[["bel-marin-3.08a6ca5b.jpg","images/bel-marin-keys/bel-marin-3.jpg"],"images/bel-marin-keys/bel-marin-3.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-4.jpg":[["bel-marin-4.ace49d9f.jpg","images/bel-marin-keys/bel-marin-4.jpg"],"images/bel-marin-keys/bel-marin-4.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-5.jpg":[["bel-marin-5.3001551c.jpg","images/bel-marin-keys/bel-marin-5.jpg"],"images/bel-marin-keys/bel-marin-5.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-6.jpg":[["bel-marin-6.f24b3f14.jpg","images/bel-marin-keys/bel-marin-6.jpg"],"images/bel-marin-keys/bel-marin-6.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-7.jpg":[["bel-marin-7.02561720.jpg","images/bel-marin-keys/bel-marin-7.jpg"],"images/bel-marin-keys/bel-marin-7.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-8.jpg":[["bel-marin-8.8279521c.jpg","images/bel-marin-keys/bel-marin-8.jpg"],"images/bel-marin-keys/bel-marin-8.jpg"],"./..\\images\\bel-marin-keys\\bel-marin-9.jpg":[["bel-marin-9.7c93b73d.jpg","images/bel-marin-keys/bel-marin-9.jpg"],"images/bel-marin-keys/bel-marin-9.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-1.jpg":[["belvedere-firepit-1.0a2325a6.jpg","images/belvedere-firepit/belvedere-firepit-1.jpg"],"images/belvedere-firepit/belvedere-firepit-1.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-2.jpg":[["belvedere-firepit-2.6c15f700.jpg","images/belvedere-firepit/belvedere-firepit-2.jpg"],"images/belvedere-firepit/belvedere-firepit-2.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-3.jpg":[["belvedere-firepit-3.d5193bf5.jpg","images/belvedere-firepit/belvedere-firepit-3.jpg"],"images/belvedere-firepit/belvedere-firepit-3.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-4.jpg":[["belvedere-firepit-4.ec085dd3.jpg","images/belvedere-firepit/belvedere-firepit-4.jpg"],"images/belvedere-firepit/belvedere-firepit-4.jpg"],"./..\\images\\belvedere-firepit\\belvedere-firepit-5.jpg":[["belvedere-firepit-5.5103df44.jpg","images/belvedere-firepit/belvedere-firepit-5.jpg"],"images/belvedere-firepit/belvedere-firepit-5.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-2.jpg":[["belvedere-lagoon-2.90622f6e.jpg","images/belvedere-lagoon/belvedere-lagoon-2.jpg"],"images/belvedere-lagoon/belvedere-lagoon-2.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-3.jpg":[["belvedere-lagoon-3.56218a1c.jpg","images/belvedere-lagoon/belvedere-lagoon-3.jpg"],"images/belvedere-lagoon/belvedere-lagoon-3.jpg"],"./..\\images\\belvedere-lagoon\\belvedere-lagoon-4.jpg":[["belvedere-lagoon-4.d305b091.jpg","images/belvedere-lagoon/belvedere-lagoon-4.jpg"],"images/belvedere-lagoon/belvedere-lagoon-4.jpg"],"./..\\images\\piedmont\\piedmont-1.jpg":[["piedmont-1.fc1eefd1.jpg","images/piedmont/piedmont-1.jpg"],"images/piedmont/piedmont-1.jpg"],"./..\\images\\piedmont\\piedmont-2.jpg":[["piedmont-2.0dfac108.jpg","images/piedmont/piedmont-2.jpg"],"images/piedmont/piedmont-2.jpg"],"./..\\images\\piedmont\\piedmont-3.jpg":[["piedmont-3.eebd91ba.jpg","images/piedmont/piedmont-3.jpg"],"images/piedmont/piedmont-3.jpg"],"./..\\images\\piedmont\\piedmont-4.jpg":[["piedmont-4.29099990.jpg","images/piedmont/piedmont-4.jpg"],"images/piedmont/piedmont-4.jpg"],"./..\\images\\piedmont\\piedmont-5.jpg":[["piedmont-5.12421d4e.jpg","images/piedmont/piedmont-5.jpg"],"images/piedmont/piedmont-5.jpg"],"./..\\images\\piedmont\\piedmont-6.jpg":[["piedmont-6.305a98f4.jpg","images/piedmont/piedmont-6.jpg"],"images/piedmont/piedmont-6.jpg"],"./..\\images\\san-rafael\\san-rafael-1.jpg":[["san-rafael-1.531ed3ba.jpg","images/san-rafael/san-rafael-1.jpg"],"images/san-rafael/san-rafael-1.jpg"],"./..\\images\\san-rafael\\san-rafael-2.jpg":[["san-rafael-2.27c37840.jpg","images/san-rafael/san-rafael-2.jpg"],"images/san-rafael/san-rafael-2.jpg"],"./..\\images\\san-rafael\\san-rafael-3.jpg":[["san-rafael-3.7eb11ae7.jpg","images/san-rafael/san-rafael-3.jpg"],"images/san-rafael/san-rafael-3.jpg"],"./..\\images\\san-rafael\\san-rafael-4.jpg":[["san-rafael-4.218a9dab.jpg","images/san-rafael/san-rafael-4.jpg"],"images/san-rafael/san-rafael-4.jpg"],"./..\\images\\san-francisco\\sf-1.jpg":[["sf-1.f26d5405.jpg","images/san-francisco/sf-1.jpg"],"images/san-francisco/sf-1.jpg"],"./..\\images\\san-francisco\\sf-2.jpg":[["sf-2.ef07293a.jpg","images/san-francisco/sf-2.jpg"],"images/san-francisco/sf-2.jpg"],"./..\\images\\san-francisco\\sf-3.jpg":[["sf-3.12f438e6.jpg","images/san-francisco/sf-3.jpg"],"images/san-francisco/sf-3.jpg"],"./..\\images\\san-francisco\\sf-4.jpg":[["sf-4.ecca7e44.jpg","images/san-francisco/sf-4.jpg"],"images/san-francisco/sf-4.jpg"],"./..\\images\\san-francisco\\sf-5.jpg":[["sf-5.a787c381.jpg","images/san-francisco/sf-5.jpg"],"images/san-francisco/sf-5.jpg"],"./..\\images\\san-francisco\\sf-6.jpg":[["sf-6.17efb3ad.jpg","images/san-francisco/sf-6.jpg"],"images/san-francisco/sf-6.jpg"],"_css_loader":"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59320" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56461" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -392,5 +325,144 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+},{}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-loader.js":[function(require,module,exports) {
+var getBundleURL = require('./bundle-url').getBundleURL;
+
+function loadBundlesLazy(bundles) {
+  if (!Array.isArray(bundles)) {
+    bundles = [bundles];
+  }
+
+  var id = bundles[bundles.length - 1];
+
+  try {
+    return Promise.resolve(require(id));
+  } catch (err) {
+    if (err.code === 'MODULE_NOT_FOUND') {
+      return new LazyPromise(function (resolve, reject) {
+        loadBundles(bundles.slice(0, -1)).then(function () {
+          return require(id);
+        }).then(resolve, reject);
+      });
+    }
+
+    throw err;
+  }
+}
+
+function loadBundles(bundles) {
+  return Promise.all(bundles.map(loadBundle));
+}
+
+var bundleLoaders = {};
+
+function registerBundleLoader(type, loader) {
+  bundleLoaders[type] = loader;
+}
+
+module.exports = exports = loadBundlesLazy;
+exports.load = loadBundles;
+exports.register = registerBundleLoader;
+var bundles = {};
+
+function loadBundle(bundle) {
+  var id;
+
+  if (Array.isArray(bundle)) {
+    id = bundle[1];
+    bundle = bundle[0];
+  }
+
+  if (bundles[bundle]) {
+    return bundles[bundle];
+  }
+
+  var type = (bundle.substring(bundle.lastIndexOf('.') + 1, bundle.length) || bundle).toLowerCase();
+  var bundleLoader = bundleLoaders[type];
+
+  if (bundleLoader) {
+    return bundles[bundle] = bundleLoader(getBundleURL() + bundle).then(function (resolved) {
+      if (resolved) {
+        module.bundle.register(id, resolved);
+      }
+
+      return resolved;
+    }).catch(function (e) {
+      delete bundles[bundle];
+      throw e;
+    });
+  }
+}
+
+function LazyPromise(executor) {
+  this.executor = executor;
+  this.promise = null;
+}
+
+LazyPromise.prototype.then = function (onSuccess, onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.then(onSuccess, onError);
+};
+
+LazyPromise.prototype.catch = function (onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.catch(onError);
+};
+},{"./bundle-url":"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-url.js"}],"../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/loaders/browser/js-loader.js":[function(require,module,exports) {
+module.exports = function loadJSBundle(bundle) {
+  return new Promise(function (resolve, reject) {
+    var script = document.createElement('script');
+    script.async = true;
+    script.type = 'text/javascript';
+    script.charset = 'utf-8';
+    script.src = bundle;
+
+    script.onerror = function (e) {
+      script.onerror = script.onload = null;
+      reject(e);
+    };
+
+    script.onload = function () {
+      script.onerror = script.onload = null;
+      resolve();
+    };
+
+    document.getElementsByTagName('head')[0].appendChild(script);
+  });
+};
+},{}],0:[function(require,module,exports) {
+var b=require("../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-loader.js");b.register("js",require("../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/loaders/browser/js-loader.js"));b.load([]);
+},{}]},{},["../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js",0], null)
 //# sourceMappingURL=/main.48b3db1d.js.map

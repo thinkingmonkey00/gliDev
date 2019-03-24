@@ -1,9 +1,77 @@
-#contact {
-    padding-top: 7rem;
-    height: 70vh;
-    background: $white;
-
-    img {
-        box-shadow: 10px 10px 16px -3px rgba(50, 50, 50, 0.75);
+body.contact-bg {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    center / cover no-repeat url("/images//stone-bg.jpg");
+  .contact.wrapper {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+    // height: 100vh;
+    background: transparent;
+    .card {
+      height: 400px;
+      width: 400px;
     }
+    .contact-info {
+      background: rgba($color: $black, $alpha: 0.8);
+      img {
+        height: 4rem;
+        width: auto;
+      }
+      p {
+        padding-left: 4rem;
+        color: $white;
+        // font-size: 1.5rem;
+      }
+    }
+    .typeform-wrapper {
+      background: rgba($color: $black, $alpha: 0.2);
+    }
+  }
+
+  //   Actual footer
+  .contact-footer {
+    border-top: 5px solid $white;
+
+    height: 100%;
+    width: 100vw;
+    img {
+      height: 2rem;
+      width: auto;
+    }
+
+    ul.list-unstyled li {
+      //padding-bottom: .5rem;
+      a {
+        text-decoration: none;
+        color: $white;
+        font-family: $serif-font;
+        transition: all 0.5s;
+        @include link-design;
+      }
+    }
+
+    .social-buttons {
+      ul {
+        list-style: none;
+      }
+    }
+
+    .jobs-link p a {
+      @include link-design;
+    }
+
+    #footer-info-links {
+      div {
+        padding-bottom: 0.5rem;
+        color: $white;
+        img {
+          padding-right: 0.5rem;
+        }
+        a {
+          text-decoration: none;
+          text-align: justify;
+          color: inherit;
+        }
+      }
+    }
+  }
 }
