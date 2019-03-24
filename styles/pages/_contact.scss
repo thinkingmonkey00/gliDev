@@ -1,54 +1,9 @@
-.contact-footer.wrapper {
-  margin-top: 5rem;  
-  width: 100vw;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-    center / cover no-repeat url("../images/stone-bg.jpg");
-}
+#contact {
+    padding-top: 7rem;
+    height: 70vh;
+    background: $white;
 
-.row {
-  .col.contact-info {
-    height: 400px;
-    .box {
-      padding: 2rem;
-      border: 1px solid white;
-      height: 100%;
-      width: 100%;
-      h1 {
-        color: white;
-      }
+    img {
+        box-shadow: 10px 10px 16px -3px rgba(50, 50, 50, 0.75);
     }
-  }
-  .typeform-widget-wrapper {
-    background-color: rgba(250, 250, 235, 0.5);
-  }
-}
-
-img.icons {
-  height: 2rem;
-  width: auto;
-}
-
-.list-unstyled li a {
-  text-decoration: none;
-  color: $white;
-  font-family: $serif-font;
-  transition: all 0.5s;
-  @include link-design;
-}
-
-.jobs-link p a {
-  @include link-design;
-}
-
-.footer-info-links {
-  padding-bottom: 0.5rem;
-  color: $white;
-  img {
-    padding-right: 0.5rem;
-  }
-  a {
-    text-decoration: none;
-    text-align: justify;
-    color: inherit;
-  }
 }

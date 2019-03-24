@@ -1,36 +1,47 @@
-.main-footer {
+#footer {
   border-top: 5px solid $white;
-background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-  center / cover no-repeat url("/images//stone-bg.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    center / cover no-repeat url("/images//stone-bg.jpg");
+  height: 100%;
   width: 100vw;
-}
-
-img.icons {
-  height: 2rem;
-  width: auto;
-}
-
-.list-unstyled li a {
-  text-decoration: none;
-  color: $white;
-  font-family: $serif-font;
-  transition: all 0.5s;
-  @include link-design;
-}
-
-.jobs-link p a {
-  @include link-design;
-}
-
-.footer-info-links {
-  padding-bottom: 0.5rem;
-  color: $white;
   img {
-    padding-right: 0.5rem;
+    height: 2rem;
+    width: auto;
   }
-  .d-flex div a {
-    text-decoration: none;
-    text-align: justify;
-    color: $white;
+
+  ul.list-unstyled li {
+    //padding-bottom: .5rem;
+    a {
+      text-decoration: none;
+      color: $white;
+      font-family: $serif-font;
+      transition: all 0.5s;
+      @include link-design;
+    }
   }
+
+  .social-buttons {
+    ul {
+      list-style: none;
+    }
+  }
+
+  .jobs-link > p > a {
+    @include link-design;
+  }
+
+  #footer-info-links {
+    div {
+      padding-bottom: 0.5rem;
+      color: $white;
+    img {
+      padding-right: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+      text-align: justify;
+      color: inherit;
+    }
+  }
+}
 }

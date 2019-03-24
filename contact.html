@@ -1,285 +1,31 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>gli portfolio</title>
     <!-- IE -->
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="images/favicon/favicon.ico"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico" />
     <!-- other browsers -->
     <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico" />
-    <link rel="stylesheet" href="styles/main.scss" />
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="styles/main.scss">
+</head>
+<body>
     <include src="main-nav.html"></include>
 
-    <!-- Content -->
-    <div class="contact-footer wrapper">
-      <div class="row">
-        <div class="col contact-info">
-          <div class="box">
-            <h1>Let's Connect!</h1>
-          </div>
-        </div>
-        <div class="typeform-widget-wrapper col">
-          <div
-            class="typeform-widget"
-            data-url="https://melissa809591.typeform.com/to/c7sbBC"
-            data-transparency="100"
-            style="width: 100%; height: 400px;"
-          ></div>
-          <script>
-            (function() {
-              var qs,
-                js,
-                q,
-                s,
-                d = document,
-                gi = d.getElementById,
-                ce = d.createElement,
-                gt = d.getElementsByTagName,
-                id = "typef_orm",
-                b = "https://embed.typeform.com/";
-              if (!gi.call(d, id)) {
-                js = ce.call(d, "script");
-                js.id = id;
-                js.src = b + "embed.js";
-                q = gt.call(d, "script")[0];
-                q.parentNode.insertBefore(js, q);
-              }
-            })();
-          </script>
-          <div
-            style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"
-          >
-            powered by
-            <a
-              href="https://admin.typeform.com/signup?utm_campaign=c7sbBC&utm_source=typeform.com-13641156-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
-              style="color: #999"
-              target="_blank"
-              >Typeform</a
-            >
-          </div>
-        </div>
-      </div>
-      <hr />
-      <footer class="bottom-footer container">
-        <p class="display-2 mb-2 pt-5 pb-2 text-white">Hello!</p>
-
-        <div class="row text-white">
-          <div class="col-6 col-md-3">
-            <h6 class="text-uppercase">Information</h6>
-            <ul class="list-unstyled">
-              <li><a href="portfolio.html">Projects</a></li>
-              <li><a href="faq.html">FAQs</a></li>
-              <li><a href="portfolio.html">Gallery</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3">
-            <h6 class="text-uppercase">About</h6>
-            <ul class="list-unstyled">
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="about.html">Our Mission</a></li>
-              <li><a href="legal.html">Privacy Policy</a></li>
-              <li><a href="sitemap.html">Site Map</a></li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-3 column">
-            <h6 class="text-uppercase">Stay Posted</h6>
-            <p id="subscribe" class="text-light font-weight-light">
-              Get insight on the landscape industry and helpful tips to get the
-              most out of your construction project.
-            </p>
-            <form>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control
-                              text-dark"
-                  title="GLI norcal newsletter"
-                  placeholder="enter your email"
-                />
-              </div>
-              <div class="form-group">
-                <button
-                  class="btn btn-success text-uppercase
-                              small"
-                  data-toggle="modal"
-                  data-target="#alertModal"
-                  type="button"
-                >
-                  No spam, we promise!
-                </button>
-              </div>
-            </form>
-          </div>
-          <div
-            class="jobs-link col-12 col-lg-2 ml-lg-auto col-md-3
-                  ml-md-0 text-right"
-          >
-            <h6 class="default-pointer text-uppercase">
-              Career Opportunities
-            </h6>
-            <p><a class="text-white" href="">Browse the job openings.</a></p>
-          </div>
-          <div
-            class="social-buttons col-12 text-md-right
-                  text-right"
-          >
-            <p class="text-uppercase pb-0 mb-0">follow gli norcal</p>
-            <ul
-              class="list-unstyled d-flex flex-row justify-content-end mt-0
-                      pt-0"
-            >
-              <li class="px-0">
-                <a rel="nofollow" href="" title="Instagram">
-                  <img
-                    src="images/icons/instagram.png"
-                    alt="Instagram"
-                    class="icons"
-                  /> </a
-                >&nbsp;
-              </li>
-              <li class="px-0">
-                <a rel="nofollow" href="" title="LinkedIn">
-                  <img
-                    src="images/icons/linkedin.png"
-                    alt="LinkedIn"
-                    class="icons"
-                  /> </a
-                >&nbsp;
-              </li>
-              <li class="px-0">
-                <a rel="nofollow" href="" title="Twitter">
-                  <img
-                    src="images/icons/twitter.png"
-                    alt="Twitter"
-                    class="icons"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="footer-info-links d-flex flex-column flex-md-row
-                                        align-items-md-stretch justify-content-between"
-          >
-            <div>
-              <img src="images/icons/phone.png" alt="call" class="icons" />
-              <a href="tel+1-415-331-1709">
-                415.331.1709
-              </a>
-            </div>
-            <div>
-              <img src="images/icons/message.png" alt="message" class="icons" />
-              <a
-                class="btn-link pointer"
-                data-toggle="modal"
-                data-target="#contact-form-footer"
-              >
-                hello@glinorcal.com
-              </a>
-            </div>
-
-            <!-- Contact Modal -->
-            <div
-              id="contact-form-footer"
-              class="modal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="contact-form-footer"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="contact-form-footer-title">
-                      Modal title
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn
-                                                btn-secondary"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button
-                      type="button"
-                      class="btn
-                                                btn-primary"
-                    >
-                      Save changes
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Modal -->
-
-            <div class="d-flex flex-row">
-              <img src="images/icons/map.png" alt="address" class="icons" />
-              <a
-                href="https://www.google.com/maps/place/GLI+Norcal+Landscape+Construction/@37.939707,-122.514235,15z/data=!4m5!3m4!1s0x0:0x8c67891c5a08c38c!8m2!3d37.939707!4d-122.514235"
-                target="_blank"
-              >
-                125 Rich Street <br />
-                Greenbrae, CA 94904
-              </a>
-            </div>
-
-            <div class="d-flex flex-row">
-              <img
-                src="images/icons/checkmark.png"
-                alt="checkmark"
-                class="icons"
-              />
-              <a
-                href="https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668200"
-                target="_blank"
-              >
-                CSLB Licensed Landscape <br />
-                Contractor #668200
-              </a>
-            </div>
-          </div>
-          <p class="text-light text-center default-pointer">
-            <small
-              >&copy; 2019 GLI Norcal Landscape Construction All Rights
-              Reserved</small
-            >
-          </p>
-
-          <hr />
-          <div>
-            <p class="text-white text-center">
-              <a class="tmd-link inactive" href="#"
-                ><small>Crafted with care by Thoughtful Monkey Designs</small>
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
+<!-- Content -->
+<div id="contact" class="wrapper">
+    <div class="container">
+        <img src="images/contact-collage.jpg" alt="gli norcal project images" class="img-fluid">
     </div>
+</div>
+
+<!---->
+    <include src="main-footer.html"></include>
+
     <script src="index.js"></script>
-  </body>
-</html> -->
+</body>
+
+</html>
