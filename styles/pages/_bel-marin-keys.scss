@@ -2,51 +2,54 @@
     @include carousel-globals;
     .carousel-inner {
 
-        #bel-marin-img-1 {
+        #bel-marin-img-1.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-1.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
+            @include portrait-img-lg-screen;
         }
 
-        #bel-marin-img-2 {
+        #bel-marin-img-2.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-2.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
         }
 
-        #bel-marin-img-3 {
+        #bel-marin-img-3.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-3.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
+            @include portrait-img-lg-screen;
         }
-        #bel-marin-img-4 {
+        #bel-marin-img-4.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-4.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
         }
-        #bel-marin-img-5 {
+        #bel-marin-img-5.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-5.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
+            @include portrait-img-lg-screen;
         }
-        #bel-marin-img-6 {
+        #bel-marin-img-6.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-6.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
         }
-        #bel-marin-img-7 {
+        #bel-marin-img-7.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-7.jpg');
             background-size: cover;
             background-position-x: center;
             background-position-y: bottom;
         }
-        #bel-marin-img-8 {
+        #bel-marin-img-8.carousel-item {
             background: url('../images/bel-marin-keys/bel-marin-8.jpg');
             background-size: cover;
             background-position-x: center;

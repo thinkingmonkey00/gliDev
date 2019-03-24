@@ -9800,11 +9800,12 @@ nav.navbar .nav-item:hover {
 }
 
 #main-carousel {
-  height: 100vh;
+  margin-top: 10vh;
   background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
 }
 #main-carousel .carousel-inner {
-  height: inherit;
+  height: 90vh;
 }
 #main-carousel .carousel-inner .carousel-item {
   height: inherit;
@@ -9834,11 +9835,12 @@ nav.navbar .nav-item:hover {
 }
 
 #main-portfolio-slider.carousel {
-  height: 100vh;
+  margin-top: 10vh;
   background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
 }
 #main-portfolio-slider.carousel .carousel-inner {
-  height: inherit;
+  height: 90vh;
 }
 #main-portfolio-slider.carousel .carousel-inner .carousel-item {
   height: inherit;
@@ -9852,15 +9854,21 @@ div#portfolio-img-1 {
 }
 
 #portfolio-img-2 {
-  background: url("https://res.cloudinary.com/drlcksx7j/image/upload/s--qMw-vHMv--/q_jpegmini/v1552541246/DSC_0055_vmylkl.jpg");
+  background: url("/belvedere-lagoon-1.3a227919.jpg");
   background-size: cover;
-  background-position-y: 50%;
+  background-position-y: 70%;
+  background-position-x: 20%;
+}
+@media (min-width: 992px) {
+  #portfolio-img-2 {
+    background-position-x: center;
+  }
 }
 
 #portfolio-img-3 {
   background: url("https://res.cloudinary.com/drlcksx7j/image/upload/s--g0v3WchL--/q_jpegmini/v1552541261/DSC_0033_pjlqxf.jpg");
   background-size: cover;
-  background-position-y: 100%;
+  background-position-y: 90%;
   background-position-x: 30%;
 }
 
@@ -9877,12 +9885,18 @@ div#portfolio-img-1 {
   background-position-y: top;
   background-position-x: right;
 }
+@media (min-width: 992px) {
+  #portfolio-img-5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
 
 #portfolio-img-6 {
-  background: url("https://res.cloudinary.com/drlcksx7j/image/upload/s--Z6pBFhpt--/q_jpegmini:1/v1552543185/sf-backyard_obu9lp.png");
+  background: url("/sf-7.b8ad093b.jpg");
   background-size: cover;
-  background-position-y: 65%;
-  background-position-x: 40%;
+  background-position-y: bottom;
+  background-position-x: 90%;
 }
 
 .carousel-item {
@@ -9895,58 +9909,77 @@ div#portfolio-img-1 {
 }
 
 #bel-marin-portfolio {
-  height: 100vh;
+  margin-top: 10vh;
   background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
 }
 #bel-marin-portfolio .carousel-inner {
-  height: inherit;
+  height: 90vh;
 }
 #bel-marin-portfolio .carousel-inner .carousel-item {
   height: inherit;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-1 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-1.carousel-item {
   background: url("/bel-marin-1.26ab2be4.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-2 {
+@media (min-width: 992px) {
+  #bel-marin-portfolio .carousel-inner #bel-marin-img-1.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#bel-marin-portfolio .carousel-inner #bel-marin-img-2.carousel-item {
   background: url("/bel-marin-2.d7f401cb.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-3 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-3.carousel-item {
   background: url("/bel-marin-3.08a6ca5b.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-4 {
+@media (min-width: 992px) {
+  #bel-marin-portfolio .carousel-inner #bel-marin-img-3.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#bel-marin-portfolio .carousel-inner #bel-marin-img-4.carousel-item {
   background: url("/bel-marin-4.ace49d9f.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-5 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-5.carousel-item {
   background: url("/bel-marin-5.3001551c.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-6 {
+@media (min-width: 992px) {
+  #bel-marin-portfolio .carousel-inner #bel-marin-img-5.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#bel-marin-portfolio .carousel-inner #bel-marin-img-6.carousel-item {
   background: url("/bel-marin-6.f24b3f14.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-7 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-7.carousel-item {
   background: url("/bel-marin-7.02561720.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
-#bel-marin-portfolio .carousel-inner #bel-marin-img-8 {
+#bel-marin-portfolio .carousel-inner #bel-marin-img-8.carousel-item {
   background: url("/bel-marin-8.8279521c.jpg");
   background-size: cover;
   background-position-x: center;
@@ -9957,6 +9990,264 @@ div#portfolio-img-1 {
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
+}
+
+#firepit-portfolio {
+  margin-top: 10vh;
+  background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
+}
+#firepit-portfolio .carousel-inner {
+  height: 90vh;
+}
+#firepit-portfolio .carousel-inner .carousel-item {
+  height: inherit;
+}
+#firepit-portfolio .carousel-inner #belvedere-firepit-1.carousel-item {
+  background: url("/belvedere-firepit-1.0a2325a6.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#firepit-portfolio .carousel-inner #belvedere-firepit-2.carousel-item {
+  background: url("/belvedere-firepit-2.6c15f700.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#firepit-portfolio .carousel-inner #belvedere-firepit-3.carousel-item {
+  background: url("/belvedere-firepit-3.d5193bf5.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#firepit-portfolio .carousel-inner #belvedere-firepit-4.carousel-item {
+  background: url("/belvedere-firepit-4.ec085dd3.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #firepit-portfolio .carousel-inner #belvedere-firepit-4.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#firepit-portfolio .carousel-inner #belvedere-firepit-5.carousel-item {
+  background: url("/belvedere-firepit-5.5103df44.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #firepit-portfolio .carousel-inner #belvedere-firepit-5.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+#lagoon-portfolio {
+  margin-top: 10vh;
+  background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
+}
+#lagoon-portfolio .carousel-inner {
+  height: 90vh;
+}
+#lagoon-portfolio .carousel-inner .carousel-item {
+  height: inherit;
+}
+#lagoon-portfolio .carousel-inner #belvedere-lagoon-1.carousel-item {
+  background: url("/belvedere-lagoon-2.90622f6e.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+}
+#lagoon-portfolio .carousel-inner #belvedere-lagoon-2.carousel-item {
+  background: url("/belvedere-lagoon-1.3a227919.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#lagoon-portfolio .carousel-inner #belvedere-lagoon-3.carousel-item {
+  background: url("/belvedere-lagoon-3.56218a1c.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #lagoon-portfolio .carousel-inner #belvedere-lagoon-3.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#lagoon-portfolio .carousel-inner #belvedere-lagoon-4.carousel-item {
+  background: url("/belvedere-lagoon-4.d305b091.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#piedmont-portfolio {
+  margin-top: 10vh;
+  background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
+}
+#piedmont-portfolio .carousel-inner {
+  height: 90vh;
+}
+#piedmont-portfolio .carousel-inner .carousel-item {
+  height: inherit;
+}
+#piedmont-portfolio .carousel-inner #piedmont-img-1.carousel-item {
+  background: url("/piedmont-1.fc1eefd1.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#piedmont-portfolio .carousel-inner #piedmont-img-2.carousel-item {
+  background: url("/piedmont-2.0dfac108.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#piedmont-portfolio .carousel-inner #piedmont-img-3.carousel-item {
+  background: url("/piedmont-3.eebd91ba.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #piedmont-portfolio .carousel-inner #piedmont-img-3.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#piedmont-portfolio .carousel-inner #piedmont-img-4.carousel-item {
+  background: url("/piedmont-4.29099990.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#piedmont-portfolio .carousel-inner #piedmont-img-5.carousel-item {
+  background: url("/piedmont-5.12421d4e.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #piedmont-portfolio .carousel-inner #piedmont-img-5.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#piedmont-portfolio .carousel-inner #piedmont-img-6.carousel-item {
+  background: url("/piedmont-6.305a98f4.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#san-rafael-portfolio {
+  margin-top: 10vh;
+  background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
+}
+#san-rafael-portfolio .carousel-inner {
+  height: 90vh;
+}
+#san-rafael-portfolio .carousel-inner .carousel-item {
+  height: inherit;
+}
+#san-rafael-portfolio .carousel-inner #san-rafael-img-1.carousel-item {
+  background: url("/san-rafael-1.531ed3ba.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #san-rafael-portfolio .carousel-inner #san-rafael-img-1.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#san-rafael-portfolio .carousel-inner #san-rafael-img-2.carousel-item {
+  background: url("/san-rafael-2.27c37840.jpg");
+  background-size: cover;
+  background-position-x: 80%;
+  background-position-y: top;
+}
+#san-rafael-portfolio .carousel-inner #san-rafael-img-3.carousel-item {
+  background: url("/san-rafael-3.7eb11ae7.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+@media (min-width: 992px) {
+  #san-rafael-portfolio .carousel-inner #san-rafael-img-3.carousel-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+#san-rafael-portfolio .carousel-inner #san-rafael-img-4.carousel-item {
+  background: url("/san-rafael-4.218a9dab.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#san-francisco-portfolio {
+  margin-top: 10vh;
+  background: linear-gradient(to top, #5b8266, #4d836d, #3d8475, #288580, #00858b);
+  padding: 0;
+}
+#san-francisco-portfolio .carousel-inner {
+  height: 90vh;
+}
+#san-francisco-portfolio .carousel-inner .carousel-item {
+  height: inherit;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-1.carousel-item {
+  background: url("/sf-1.f26d5405.jpg");
+  background-size: cover;
+  background-position-x: 60%;
+  background-position-y: bottom;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-2.carousel-item {
+  background: url("/sf-2.ef07293a.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-3.carousel-item {
+  background: url("/sf-3.12f438e6.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-4.carousel-item {
+  background: url("/sf-4.ecca7e44.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-5.carousel-item {
+  background: url("/sf-5.a787c381.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-6.carousel-item {
+  background: url("/sf-6.17efb3ad.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+#san-francisco-portfolio .carousel-inner #san-francisco-img-7.carousel-item {
+  background: url("/sf-7.b8ad093b.jpg");
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: top;
 }
 
 #about {

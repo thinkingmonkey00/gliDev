@@ -1,0 +1,33 @@
+#lagoon-portfolio {
+    @include carousel-globals;
+    .carousel-inner {
+
+        #belvedere-lagoon-1.carousel-item {
+            background: url('../images/belvedere-lagoon/belvedere-lagoon-2.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: top;
+        }
+
+        #belvedere-lagoon-2.carousel-item {
+            background: url('../images/belvedere-lagoon/belvedere-lagoon-1.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+
+        #belvedere-lagoon-3.carousel-item {
+            background: url('../images/belvedere-lagoon/belvedere-lagoon-3.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+            @include portrait-img-lg-screen;
+        }
+        #belvedere-lagoon-4.carousel-item {
+            background: url('../images/belvedere-lagoon/belvedere-lagoon-4.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+    }
+}

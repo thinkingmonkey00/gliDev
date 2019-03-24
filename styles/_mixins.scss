@@ -17,14 +17,22 @@
 }
 
 @mixin carousel-globals {
-  height: 100vh;
+  margin-top: 10vh;
   background: $gli-blue-green-gradient;
+  padding: 0;
 
   .carousel-inner {
-    height: inherit;
+    height: 90vh;
 
     .carousel-item {
       height: inherit;
     }
   }
+}
+
+@mixin portrait-img-lg-screen {
+  @include media-breakpoint-up(lg) {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 }
