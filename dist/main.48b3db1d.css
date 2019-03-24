@@ -9709,7 +9709,7 @@ h3 {
   }
 }
 body {
-  width: 100;
+  width: 100vw;
   height: 100%;
 }
 
@@ -9755,11 +9755,13 @@ nav.navbar .nav-item:hover {
   height: 100%;
   width: 100vw;
 }
-#footer img {
+
+img.icon {
   height: 2rem;
   width: auto;
 }
-#footer ul.list-unstyled li a {
+
+.list-unstyled li a {
   text-decoration: none;
   color: #fff;
   font-family: "Roboto Slab", serif;
@@ -9768,32 +9770,31 @@ nav.navbar .nav-item:hover {
   border-bottom: 3px solid transparent;
   transition: all 0.5s;
 }
-#footer ul.list-unstyled li a:hover {
+.list-unstyled li a:hover {
   text-decoration: none;
   border-bottom: 3px solid #5b8266;
   transition: all 0.5s;
 }
-#footer .social-buttons ul {
-  list-style: none;
-}
-#footer .jobs-link > p > a {
+
+.jobs-link p a {
   text-decoration: none;
   border-bottom: 3px solid transparent;
   transition: all 0.5s;
 }
-#footer .jobs-link > p > a:hover {
+.jobs-link p a:hover {
   text-decoration: none;
   border-bottom: 3px solid #5b8266;
   transition: all 0.5s;
 }
-#footer #footer-info-links div {
+
+.footer-info-links {
   padding-bottom: 0.5rem;
   color: #fff;
 }
-#footer #footer-info-links div img {
+.footer-info-links img {
   padding-right: 0.5rem;
 }
-#footer #footer-info-links div a {
+.footer-info-links a {
   text-decoration: none;
   text-align: justify;
   color: inherit;
@@ -10296,13 +10297,80 @@ div#services h3 {
   border-bottom: 2px #5b8266 solid;
 }
 
-#contact {
-  padding-top: 7rem;
-  height: 70vh;
-  background: #fff;
+#contact-footer {
+  margin-top: 5rem;
+  position: relative;
+  height: 225vh;
+  width: 100vw;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), center/cover no-repeat url("/stone-bg.eef9bcc9.jpg");
 }
-#contact img {
-  box-shadow: 10px 10px 16px -3px rgba(50, 50, 50, 0.75);
+#contact-footer footer.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.row {
+  padding: 4rem 8rem;
+}
+.row .col.contact-info {
+  height: 400px;
+}
+.row .col.contact-info .box {
+  padding: 2rem;
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+}
+.row .col.contact-info .box h1 {
+  color: white;
+}
+.row .typeform-widget-wrapper {
+  background-color: rgba(250, 250, 235, 0.5);
+}
+
+img.icons {
+  height: 2rem;
+  width: auto;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  transition: all 0.5s;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: all 0.5s;
+}
+.list-unstyled li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #5b8266;
+  transition: all 0.5s;
+}
+
+.jobs-link p a {
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: all 0.5s;
+}
+.jobs-link p a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #5b8266;
+  transition: all 0.5s;
+}
+
+.footer-info-links {
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+.footer-info-links img {
+  padding-right: 0.5rem;
+}
+.footer-info-links a {
+  text-decoration: none;
+  text-align: justify;
+  color: inherit;
 }
 
 /*# sourceMappingURL=/main.48b3db1d.css.map */
