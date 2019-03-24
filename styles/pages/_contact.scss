@@ -1,15 +1,8 @@
-#contact-footer {
-  margin-top: 5rem;
-  position: relative;
-  
+.contact-footer.wrapper {
+  margin-top: 5rem;  
   width: 100vw;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     center / cover no-repeat url("../images/stone-bg.jpg");
-  footer.container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
 }
 
 .row {

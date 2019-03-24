@@ -28,9 +28,9 @@ img.icons {
   img {
     padding-right: 0.5rem;
   }
-  a {
+  .d-flex div a {
     text-decoration: none;
     text-align: justify;
-    color: inherit;
+    color: $white;
   }
 }
