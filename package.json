@@ -4,7 +4,7 @@
   "description": "dev file",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html contact.html about.html legal.htnl",
+    "dev": "parcel index.html contact.html about.html legal.html news.html",
     "build": "parcel build index.html",
     "clean": "rm -rf dist .cache",
     "clean:nm": "rm -rf node_modules",

@@ -1,0 +1,21 @@
+.masthead {
+  margin-top: 7rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/contact-collage.jpg);
+  background-size: cover;
+  height: 10rem;
+  color: $white;
+  @include media-breakpoint-up(md) {
+    margin-top: 10rem;
+  }
+}
+.container.news {
+  .row.card-wrapper {
+    height: 10rem;
+    h2 {
+      padding-top: 1rem;
+      padding-left: 2rem;
+    }
+  }
+}

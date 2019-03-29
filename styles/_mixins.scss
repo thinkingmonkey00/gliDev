@@ -17,12 +17,12 @@
 }
 
 @mixin carousel-globals {
-  margin-top: 10vh;
-  background: $gli-blue-green-gradient;
+  margin-top: 6rem;
+  background: $white;
   padding: 0;
 
   .carousel-inner {
-    height: 90vh;
+    height: 86vh;
 
     .carousel-item {
       height: inherit;
