@@ -3,6 +3,5 @@
 node_modules
 .vscode
 .cache
-.babelrc
 .firebase
 .firebaserc

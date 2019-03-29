@@ -1,34 +1,15 @@
-#main-carousel {
-  @include carousel-globals;
-  .carousel-inner {
-      #main-img-1.carousel-item {
-          background: url('../images/glinorcal-stone-firepit.jpg');
-          background-size: cover;
-          background-position-y: center;
-          background-position-x: 60%;
-        //   @include media-breakpoint-up(md) {
+.index-carousel.carousel {
+  padding-top: 15rem;
+  height: 100vh;
 
-        //   }
-      }
-
-      #main-img-2.carousel-item {
-          background: url('../images/glinorcal-stone-path-masonry-glass-privacy-walls.jpg');
-          background-size: cover;
-          background-position-y: center;
-          background-position-x:20%;
-        //   @include media-breakpoint-up(md) {
-              
-        // }
-      }
-
-      #main-img-3.carousel-item {
-          background: url('../images/glinorcal-stone-walls-patio-carpentry.jpg');
-          background-size: cover;
-          background-position-y: bottom;
-          background-position-x: 40%;
-          @include media-breakpoint-up(md) {
-              background-position-x: 25%;
-        }
-      }
+  .img-1,
+  .img-2,
+  .img-3 {
+    height: 100vh;
+    img {
+      height    : 100%;
+      width     : auto;
+      overflow-x: hidden;
+    }
   }
 }
