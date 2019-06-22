@@ -4,11 +4,11 @@
   "description": "dev file",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html contact.html about.html legal.html news.html",
-    "build": "parcel build index.html",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "clean": "rm -rf dist .cache",
     "clean:nm": "rm -rf node_modules",
-    "clean:all": "yarn clean && yarn clean:nm",
+    "clean:all": "clean && clean:nm",
     "firebase:deploy": "firebase deploy --project gli-norcal-landscape-constr",
     "firebase:serve": "firebase serve --project gli-norcal-landscape-constr"
   },
@@ -22,5 +22,6 @@
     "popper.js": "^1.14.7"
   },
   "devDependencies": {
+    "sass": "^1.21.0"
   }
 }
