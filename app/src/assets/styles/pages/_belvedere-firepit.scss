@@ -1,0 +1,40 @@
+#firepit-portfolio {
+    @include carousel-globals;
+    .carousel-inner {
+
+        #belvedere-firepit-1.carousel-item {
+            background: url('../images/belvedere-firepit/belvedere-firepit-1.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+
+        #belvedere-firepit-2.carousel-item {
+            background: url('../images/belvedere-firepit/belvedere-firepit-2.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+
+        #belvedere-firepit-3.carousel-item {
+            background: url('../images/belvedere-firepit/belvedere-firepit-3.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+        #belvedere-firepit-4.carousel-item {
+            background: url('../images/belvedere-firepit/belvedere-firepit-4.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+            @include portrait-img-lg-screen;
+        }
+        #belvedere-firepit-5.carousel-item {
+            background: url('../images/belvedere-firepit/belvedere-firepit-5.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+            @include portrait-img-lg-screen;
+        }
+    }
+}
