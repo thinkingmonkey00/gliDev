@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-import Carousel from '../components/Carousel/Carousel';
+import { UncontrolledCarousel } from 'reactstrap';
 import Footer from '../components/Footer/Footer';
+import { items } from '../components/Carousel/carouselImages';
 
 class Homepage extends Component {
   render() {
     return (
       <>
         <Header />
-        <Carousel />
+        <UncontrolledCarousel items={items.homepage} />
         <Footer />
       </>
     );
