@@ -25,13 +25,13 @@ const Footer = () => {
               <h6 className="text-uppercase">Information</h6>
               <ul className="list-unstyled">
                 <li>
-                  <NavLink href="/portfolio">Projects</NavLink>
+                  <NavLink to="/portfolio">Projects</NavLink>
                 </li>
                 <li>
-                  <NavLink href="/faqs">FAQs</NavLink>
+                  <NavLink to="/faqs">FAQs</NavLink>
                 </li>
                 <li>
-                  <NavLink href="portfolio.html">Gallery</NavLink>
+                  <NavLink to="portfolio.html">Gallery</NavLink>
                 </li>
               </ul>
             </Col>
@@ -39,16 +39,16 @@ const Footer = () => {
               <h6 className="text-uppercase">About</h6>
               <ul className="list-unstyled">
                 <li>
-                  <a href="contact.html">Contact Us</a>
+                  <a href={"contact.html"}>Contact Us</a>
                 </li>
                 <li>
-                  <a href="about.html">Our Mission</a>
+                  <a href={"about.html"}>Our Mission</a>
                 </li>
                 <li>
-                  <a href="legal.html">Privacy Policy</a>
+                  <a href={"legal.html"}>Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="sitemap.html">Site Map</a>
+                  <a href={"sitemap.html"}>Site Map</a>
                 </li>
               </ul>
             </Col>
@@ -89,7 +89,7 @@ const Footer = () => {
                 Career Opportunities
               </h6>
               <p>
-                <a className="text-white" href>
+                <a className="text-white" href={}>
                   Browse the job openings.
                 </a>
               </p>
@@ -110,13 +110,13 @@ const Footer = () => {
                   &nbsp;
                 </li>
                 <li className="px-0">
-                  <a rel="nofollow" href title="LinkedIn">
+                  <a rel="nofollow" href={} title="LinkedIn">
                     <img src={linkedInLogo} alt="LinkedIn" />{' '}
                   </a>
                   &nbsp;
                 </li>
                 <li className="px-0">
-                  <a rel="nofollow" href title="Twitter">
+                  <a rel="nofollow" href={} title="Twitter">
                     <img src={twitterLogo} alt="Twitter" />
                   </a>
                 </li>
@@ -137,7 +137,7 @@ const Footer = () => {
                 <a
                   className="btn-link pointer"
                   data-toggle="modal"
-                  href="#contact-form-footer"
+                  href={"#contact-form-footer"}
                 >
                   hello@glinorcal.com
                 </a>
@@ -174,7 +174,7 @@ const Footer = () => {
                       {' '}
                       powered by{' '}
                       <a
-                        href="https://admin.typeform.com/signup?utm_campaign=c7sbBC&utm_source=typeform.com-13641156-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+                        href={"https://admin.typeform.com/signup?utm_campaign=c7sbBC&utm_source=typeform.com-13641156-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"}
                         style={{ color: '#000' }}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -187,9 +187,9 @@ const Footer = () => {
               </div>
               {/* End Modal */}
               <div className="d-flex flex-row">
-                <img src={mapIcon} alt="address" />
+                <img src={mapIcon} alt={"address"} />
                 <a
-                  href="https://www.google.com/maps/place/GLI+Norcal+Landscape+Construction/@37.939707,-122.514235,15z/data=!4m5!3m4!1s0x0:0x8c67891c5a08c38c!8m2!3d37.939707!4d-122.514235"
+                  href={"https://www.google.com/maps/place/GLI+Norcal+Landscape+Construction/@37.939707,-122.514235,15z/data=!4m5!3m4!1s0x0:0x8c67891c5a08c38c!8m2!3d37.939707!4d-122.514235"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -200,7 +200,7 @@ const Footer = () => {
               <div className="d-flex flex-row">
                 <img src={checkmarkIcon} alt="checkmark" />
                 <a
-                  href="https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668200"
+                  href={"https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668200"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -218,7 +218,7 @@ const Footer = () => {
           <hr />
           <div>
             <p className="text-white text-center">
-              <a className="tmd-link inactive" href="https://www.thoughtfulmonkey.design">
+              <a className="tmd-link inactive" href={"https://www.thoughtfulmonkey.design"}>
                 <small>Crafted with care by Thoughtful Monkey Designs</small>
               </a>
             </p>

@@ -10,7 +10,7 @@ import {
   // NavLink
 } from 'reactstrap';
 import logo from '../../assets/images/gli-oblong-logo.png';
-import PortfolioPage from '../../views/PortfolioPage';
+import Portfolio from '../../views/PortfolioPage';
 import Homepage from '../../views/Homepage';
 class Header extends Component {
   constructor(props) {
@@ -59,9 +59,9 @@ class Header extends Component {
               </Nav>
             </Collapse>
           </Navbar>
-
+          
           <Route path="/" exact HomePage={Homepage} />
-          <Route path="/Portfolio" Portfolio={PortfolioPage} />
+          <Route path="/Portfolio" Portfolio={Portfolio} />
         </>
       </Router>
     );
