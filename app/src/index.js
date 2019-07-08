@@ -1,18 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './components/App/App';
-import * as serviceWorker from './serviceWorker';
+
+import App from './App';
+
+const title = 'GLINORCAL Landscape Construction - Luxury Quality, serving Marin, SF, and the North Bay';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-
-  document.querySelector('#root')
+  <App title={title} />,
+  document.getElementById('app')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+module.hot.accept();

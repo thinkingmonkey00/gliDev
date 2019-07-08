@@ -89,7 +89,7 @@ const Footer = () => {
                 Career Opportunities
               </h6>
               <p>
-                <a className="text-white" href={}>
+                <a className="text-white" href={'https://linkedin.com'}>
                   Browse the job openings.
                 </a>
               </p>
@@ -104,19 +104,19 @@ const Footer = () => {
           pt-0"
               >
                 <li className="px-0">
-                  <a rel="nofollow" href title="Instagram">
+                  <a rel="nofollow" href={'https://instagram.com'} title="Instagram">
                     <img src={instagramIcon} alt="Instagram" />
                   </a>
                   &nbsp;
                 </li>
                 <li className="px-0">
-                  <a rel="nofollow" href={} title="LinkedIn">
+                  <a rel="nofollow" href={'https://linkedin.com'} title="LinkedIn">
                     <img src={linkedInLogo} alt="LinkedIn" />{' '}
                   </a>
                   &nbsp;
                 </li>
                 <li className="px-0">
-                  <a rel="nofollow" href={} title="Twitter">
+                  <a rel="nofollow" href={'https://twitter.com'} title="Twitter">
                     <img src={twitterLogo} alt="Twitter" />
                   </a>
                 </li>
@@ -130,7 +130,7 @@ const Footer = () => {
             >
               <div>
                 <img src={phoneIcon} alt="call" />
-                <a href="tel+1-415-331-1709">415.331.1709</a>
+                <a href={"tel+1-415-331-1709"}>415.331.1709</a>
               </div>
               <div>
                 <img src={messageIcon} alt="message" />
