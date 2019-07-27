@@ -7,7 +7,9 @@ const Home = props => (
   <div>
     <h1>Home</h1>
     <p>welcome home</p>
-    <button onClick={() => props.changePage()}>About</button>
+    <p>
+      <button onClick={() => props.changePage()}>About</button>
+    </p>
   </div>
 );
 const mapDispatchToProps = dispatch =>
