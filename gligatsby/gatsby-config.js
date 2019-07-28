@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
+    title: 'GLI Norcal Landscape Construction',
+    description:
+      'Purveyor of Fine Crafted Landscape for Marin County and the SF Bay Area',
     siteUrl: 'https://glinorcal.netlify.com',
     author: 'melissa-murphy',
     twitter: 'melissa-murphy',
