@@ -1,35 +1,35 @@
-#san-rafael-portfolio {
-    @include carousel-globals;
-    .carousel-inner {
+// #san-rafael-portfolio {
+//     @include carousel-globals;
+//     .carousel-inner {
 
-        #san-rafael-img-1.carousel-item {
-            background: url('../images/san-rafael/san-rafael-1.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-            @include portrait-img-lg-screen;
+//         #san-rafael-img-1.carousel-item {
+//             background: url('../images/san-rafael/san-rafael-1.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//             @include portrait-img-lg-screen;
             
-        }
+//         }
 
-        #san-rafael-img-2.carousel-item {
-            background: url('../images/san-rafael/san-rafael-2.jpg');
-            background-size: cover;
-            background-position-x: 80%;
-            background-position-y: top;
-        }
+//         #san-rafael-img-2.carousel-item {
+//             background: url('../images/san-rafael/san-rafael-2.jpg');
+//             background-size: cover;
+//             background-position-x: 80%;
+//             background-position-y: top;
+//         }
 
-        #san-rafael-img-3.carousel-item {
-            background: url('../images/san-rafael/san-rafael-3.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-            @include portrait-img-lg-screen;
-        }
-        #san-rafael-img-4.carousel-item {
-            background: url('../images/san-rafael/san-rafael-4.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-        }
-    }
-}
+//         #san-rafael-img-3.carousel-item {
+//             background: url('../images/san-rafael/san-rafael-3.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//             @include portrait-img-lg-screen;
+//         }
+//         #san-rafael-img-4.carousel-item {
+//             background: url('../images/san-rafael/san-rafael-4.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//         }
+//     }
+// }

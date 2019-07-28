@@ -1,48 +1,48 @@
-#piedmont-portfolio {
-    @include carousel-globals;
-    .carousel-inner {
+// #piedmont-portfolio {
+//     @include carousel-globals;
+//     .carousel-inner {
 
-        #piedmont-img-1.carousel-item {
-            background: url('../images/piedmont/piedmont-1.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
+//         #piedmont-img-1.carousel-item {
+//             background: url('../images/piedmont/piedmont-1.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
             
-        }
+//         }
 
-        #piedmont-img-2.carousel-item {
-            background: url('../images/piedmont/piedmont-2.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-        }
+//         #piedmont-img-2.carousel-item {
+//             background: url('../images/piedmont/piedmont-2.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//         }
 
-        #piedmont-img-3.carousel-item {
-            background: url('../images/piedmont/piedmont-3.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-            @include portrait-img-lg-screen;
-        }
-        #piedmont-img-4.carousel-item {
-            background: url('../images/piedmont/piedmont-4.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-        }
-        #piedmont-img-5.carousel-item {
-            background: url('../images/piedmont/piedmont-5.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
-            @include portrait-img-lg-screen;
-        }
-        #piedmont-img-6.carousel-item {
-            background: url('../images/piedmont/piedmont-6.jpg');
-            background-size: cover;
-            background-position-x: center;
-            background-position-y: bottom;
+//         #piedmont-img-3.carousel-item {
+//             background: url('../images/piedmont/piedmont-3.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//             @include portrait-img-lg-screen;
+//         }
+//         #piedmont-img-4.carousel-item {
+//             background: url('../images/piedmont/piedmont-4.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//         }
+//         #piedmont-img-5.carousel-item {
+//             background: url('../images/piedmont/piedmont-5.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
+//             @include portrait-img-lg-screen;
+//         }
+//         #piedmont-img-6.carousel-item {
+//             background: url('../images/piedmont/piedmont-6.jpg');
+//             background-size: cover;
+//             background-position-x: center;
+//             background-position-y: bottom;
             
-        }
-    }
-}
+//         }
+//     }
+// }
