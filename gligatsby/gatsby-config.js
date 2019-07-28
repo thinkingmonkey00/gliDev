@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'Gatstrap',
     description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    siteUrl: 'https://glinorcal.netlify.com',
+    author: 'melissa-murphy',
+    twitter: 'melissa-murphy',
     adsense: '',
   },
   pathPrefix: '/',
@@ -50,13 +50,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatstrap',
-        short_name: 'Gatstrap',
-        description: 'Gatsby starter for bootstrap a blog',
-        homepage_url: 'https://gatstrap.netlify.com',
+        name: 'GLI Norcal Landscape Construction',
+        short_name: 'gliNorcal',
+        description:
+          'Purveyor of Fine Crafted Landscapes for Marin County and the SF Bay Area',
+        homepage_url: 'https://glinorcal.netlify.com',
         start_url: '/',
         background_color: '#fff',
-        theme_color: '#673ab7',
+        theme_color: '#798d64',
         display: 'standalone',
         icons: [
           {
