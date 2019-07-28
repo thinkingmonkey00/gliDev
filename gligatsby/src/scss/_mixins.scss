@@ -1,0 +1,38 @@
+@mixin link-design {
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: all .5s;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 3px solid $primary;
+    transition: all 0.5s;
+  }
+}
+
+@mixin link-design-active {
+  text-decoration: none;
+  border-bottom: 3px solid $primary;
+  transition: all .5s;
+}
+
+@mixin carousel-globals {
+  margin-top: 6rem;
+  background: $white;
+  padding: 0;
+
+  .carousel-inner {
+    height: 86vh;
+
+    .carousel-item {
+      height: inherit;
+    }
+  }
+}
+
+@mixin portrait-img-lg-screen {
+  @include media-breakpoint-up(lg) {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}

@@ -1,0 +1,60 @@
+#main-portfolio-slider.carousel {
+    @include carousel-globals;
+}
+
+div#portfolio-img-1 {
+    background: url('https://res.cloudinary.com/drlcksx7j/image/upload/s--Eb26qBX6--/q_jpegmini/v1552540833/DSC_5615-X2_ajuwr5.jpg');
+    background-size: cover;
+    background-position-y: 100%;
+    background-position-x: 90%;
+}
+
+#portfolio-img-2 {
+    background: url('../images/belvedere-lagoon/belvedere-lagoon-1.jpg');
+    background-size: cover;
+    background-position-y: 70%;
+    background-position-x: 20%;
+    @include media-breakpoint-up(lg) {
+        background-position-x: center;
+    }
+}
+
+#portfolio-img-3 {
+    background: url('https://res.cloudinary.com/drlcksx7j/image/upload/s--g0v3WchL--/q_jpegmini/v1552541261/DSC_0033_pjlqxf.jpg');
+    background-size: cover;
+    background-position-y: 90%;
+    background-position-x: 30%;
+}
+
+#portfolio-img-4 {
+    background: url('https://res.cloudinary.com/drlcksx7j/image/upload/s--3qbQiCPK--/q_jpegmini/v1552541275/Piedmont_poolside_stonework_dhyinw.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+    background-position-x: 60%;
+}
+
+#portfolio-img-5 {
+    background: url('https://res.cloudinary.com/drlcksx7j/image/upload/s--nuYtWpTC--/q_jpegmini/v1552541290/A_San_Rafael_stone_steps_with_mortared_stone_walls_enhances_the_walk_from_driveway_to_home._oygcmp.jpg');
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: right;
+    @include portrait-img-lg-screen;
+    
+}
+
+#portfolio-img-6 {
+    background: url('../images/san-francisco/sf-7.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: 90%;
+}
+
+.carousel-item {
+    position: relative;
+
+    .portfolio-block {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+#san-francisco-portfolio {
+    @include carousel-globals;
+    .carousel-inner {
+
+        #san-francisco-img-1.carousel-item {
+            background: url('../images/san-francisco/sf-1.jpg');
+            background-size: cover;
+            background-position-x: 60%;
+            background-position-y: bottom;
+            
+        }
+
+        #san-francisco-img-2.carousel-item {
+            background: url('../images/san-francisco/sf-2.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+
+        #san-francisco-img-3.carousel-item {
+            background: url('../images/san-francisco/sf-3.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+        #san-francisco-img-4.carousel-item {
+            background: url('../images/san-francisco/sf-4.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+        #san-francisco-img-5.carousel-item {
+            background: url('../images/san-francisco/sf-5.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+        #san-francisco-img-6.carousel-item {
+            background: url('../images/san-francisco/sf-6.jpg');
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: bottom;
+            
+        }
+        #san-francisco-img-7.carousel-item {
+            background: url('../images/san-francisco/sf-7.jpg');
+            background-size: cover;
+            background-position-x: right;
+            background-position-y: top;
+            
+        }
+    }
+}
